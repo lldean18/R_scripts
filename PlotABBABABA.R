@@ -26,6 +26,7 @@ PlotABBABABA <- function(fasta.file, Nruns = 1) {
   colnames(tab) <- c("D", "p.value")
   
   # plot a histogram of the D values
+  library(ggplot2)
   plot_D <-
     ggplot(tab, aes(x = D)) +
     geom_histogram(bins = 1000) +
