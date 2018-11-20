@@ -10,7 +10,7 @@
 # The PlotABBABABA function
 PlotABBABABA <- function(fasta.file, Nruns = 1) {
   # load my modified function to store the p-value as well as D value (the original function stores only the D value)
-  source("C:/Users/mbzlld/Google Drive/Post Doc/my R functions/CalcD_P_value function modified from CalcD evobiR.R")
+  source("C:/Users/mbzlld/Google Drive/Post Doc/my R functions/CalcD_P_value function.R")
   
   # create an object in which to store information from multiple runs
   repeats <- vector(mode = "list", length = Nruns) # modify the length of this vector to alter the number of runs
