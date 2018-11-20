@@ -1,5 +1,6 @@
 ################################################################################
 ### Modification of the origional CalcD function to save the p_value as well ###
+############## Modified from CalcD in the evobiR package #######################
 ################################################################################
 
 # load dependent packages
