@@ -48,7 +48,7 @@ PlotABBABABA <- function(fasta.file, Nruns = 1) {
   # plot a histogram of the p-values
   Plot_p_value <-
     ggplot(tab, aes(x = p.value)) +
-    geom_histogram(bins = 500) +
+    geom_histogram(bins = 1000) +
     theme(panel.background = element_rect(fill = "white"),
           axis.line = element_line(colour = "black", size = 0.5),
           axis.text.x = element_text(size = 11, colour = "black"),
